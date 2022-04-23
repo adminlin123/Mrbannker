@@ -109,7 +109,7 @@ async def binio(message: types.Message):
 <b>BIN INFO</b>
 <code>{k.get_text()[62:]}</code>
 CheckedBy: <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>
-<b>Bot:</b> @BinnerRoBoT
+<b>Bot:</b> @LinTechnology
 ╘═════════
 """
     await message.reply(INFO)
